@@ -1,0 +1,22 @@
+<resources>>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">@color/twitterColorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/twitterColorPrimary</item>
+        <item name="android:textColorPrimary">@color/twitterTitleColor</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="tweetFont" parent="android:TextAppearance.Small">
+        <item name="android:textColor">#000000</item>
+    </style>
+</resources>
